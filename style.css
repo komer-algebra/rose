@@ -1,0 +1,38 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+	border: 1px solid red;
+	margin: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+p {
+	text-align: justify;
+	border: 1px solid red;
+	width: 300px;
+	height: 300px;
+  color: gray;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
