@@ -26,19 +26,23 @@ strong { font-family: cursive;}
   align-content: center;
 }
 
+img, p {
+	width: 50%;
+  max-width: 300px;
+  min-width: 250px;
+	/* height: 300px; */
+  aspect-ratio: 1;
+}
+
 img {
 	border: 1px solid red;
 	margin: 10px;
-  width: 300px;
-  height: 300px;
   padding: 10px;
 }
 
 p {
 	text-align: justify;
 	border: 1px solid red;
-	width: 300px;
-	height: 300px;
   color: gray;
   padding: 10px;
   font-size: 1.2em;
@@ -47,5 +51,8 @@ p {
 @media (max-width: 800px) {
   .container {
     flex-direction: column;
+  }
+  img, p {
+    width: 80%;
   }
 }
