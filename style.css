@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Pacifico;
+  src: url(./fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
 body {
   background-color: pink;
 }
@@ -8,8 +13,10 @@ h1 {
   font-size: 3em;
   padding-bottom: 5px;
   margin-bottom: -15px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Pacifico, cursive;
 }
+
+strong { font-family: cursive;}
 
 .container {
   display: flex;
